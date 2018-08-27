@@ -33,7 +33,7 @@ def listar():
 	agenda.close()
 
 def falha():
-	print("Opcao Incorreta")
+	print("Opcao Incorreta")#Codigo Sera Executado Ao Inserir Dado Invalido
 
 def menu():
         print("+----------------------+")
