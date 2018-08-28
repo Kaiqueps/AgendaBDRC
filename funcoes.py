@@ -36,7 +36,7 @@ def falha():
 	print("Opcao Incorreta")#Codigo Sera Executado Ao Inserir Dado Invalido
 
 def menu():
-        print("+----------------------+")   
+        print("+----------------------+")   #meno para seleção dentro do programa 
         print("          Menu          ")
         print("     1 - Adicionar      ")
         print("     2 - Listar         ")
