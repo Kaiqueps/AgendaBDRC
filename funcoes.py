@@ -7,17 +7,17 @@ def bemvindo():
 
 #Funcoes do processo
 def adicionar():
-	print("Adicionar um registro")
+	print("Adicionar um registro") #Adicionado funcao adicionar 
 	
 	agenda = open("agendatelefonica.csv",'a')
 	nome = input("Nome do Contato:")
 	telefone = input("Digite o telefone:")
 	print("Contato salvo com nome:",nome," e numero",telefone)
 	agenda.write(nome)
-	agenda.write(",")
-	agenda.write(telefone)
-	agenda.write(",")
-	agenda.write("\n")
+	agenda.write(",") #Escrevendo arquivo.csv
+	agenda.write(telefone) #Escrevendo arquivo.csv
+	agenda.write(",")  #Escrevendo arquivo.csv
+	agenda.write("\n") #Escrevendo arquivo.csv
 	agenda.close()
 	
 def listar():
@@ -36,7 +36,7 @@ def falha():
 	print("Opcao Incorreta")#Codigo Sera Executado Ao Inserir Dado Invalido
 
 def menu():
-        print("+----------------------+")
+        print("+----------------------+")   
         print("          Menu          ")
         print("     1 - Adicionar      ")
         print("     2 - Listar         ")
