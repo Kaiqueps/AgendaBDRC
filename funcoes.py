@@ -19,18 +19,18 @@ def adicionar():
 	agenda.write(",")
 	agenda.write("\n")
 	agenda.close()
-	
+#Função Listar	
 def listar():
-	print("Lista de Contatos")
+	print("Lista de Contatos") #mostra a lista de contatos
 	
 	agenda = open("agendatelefonica.csv")
 	numero = 0
-	while numero < 25:
+	while numero < 25: #laço de repetição
                 
 	 	print (agenda.readline())
 	 	numero = numero + 1
 	print("Listado correctamente")	
-	agenda.close()
+	agenda.close() #fim da execução
 
 def falha():
 	print("Opcao Incorreta")#Codigo Sera Executado Ao Inserir Dado Invalido
